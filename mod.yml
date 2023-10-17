@@ -1,0 +1,14 @@
+title: XMas Sora Everywhere
+originalAuthor: dallin1016
+description: Changes every (human) Instance of Sora to his Christmas Town Outfit.
+assets:
+#- name: 00objentry.bin
+#  method: copy
+#  source:
+#  - name: 00objentry.bin
+- name: 00objentry.bin
+  method: listpatch
+  type: List
+  source:
+  - name: objentrylist.yml
+    type: objentry
